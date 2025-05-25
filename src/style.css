@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+}
+
+.el-tabs,
+.el-menu {
+  user-select: none;
+}
