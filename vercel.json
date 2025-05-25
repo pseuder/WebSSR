@@ -11,15 +11,6 @@
     {
       "src": "server-prod.js",
       "use": "@vercel/node"
-    },
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "all"
-        }
-      ]
     }
   ],
   "rewrites": [
